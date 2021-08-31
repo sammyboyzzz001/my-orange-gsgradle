@@ -35,7 +35,8 @@ dependencies {
 publishing {
     publications {
         jar(MavenPublication) {
-            groupId 'academy.newtech'
+            // group ID
+            groupId 'my.orange.gadget'
             artifactId 'gs-gradle'
             version '1.0'
             from components.java
